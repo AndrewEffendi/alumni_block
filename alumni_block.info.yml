@@ -1,0 +1,5 @@
+name: alumni_block
+type: module
+description: "Alumni Block"
+core_version_requirement: "^8 || ^9"
+package: Custom

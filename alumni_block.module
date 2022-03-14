@@ -1,0 +1,17 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function alumni_block_theme($existing, $type, $theme, $path): array {
+  return [
+    'alumni_block' => [
+        'variables' => [
+          'data' => [],
+        ],
+      ],
+      'block__alumni_block' => [
+        'template' => 'block--alumni-block',
+        'base hook' => 'block',
+      ],
+  ];
+}

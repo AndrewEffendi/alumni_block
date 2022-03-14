@@ -1,0 +1,20 @@
+.alumni-block {
+  text-align: center;
+  width: 100%;
+  z-index: 2000;
+  background-color: #002a5c;
+}
+.alumni-block a:link,
+.alumni-block a:visited,
+.alumni-block a:active {
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  line-height: 2;
+  text-decoration: none;
+}
+
+.alumni-block a:hover {
+  color: #bccbde;
+  text-decoration: underline;
+}
